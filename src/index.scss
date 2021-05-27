@@ -1,0 +1,13 @@
+$font: "Roboto", sans-serif;
+$primary-color: #000000;
+
+body {
+  margin: 0;
+  font-family: $font;
+  color: $primary-color;
+  white-space: nowrap;
+}
+
+hr {
+  margin: 0;
+}

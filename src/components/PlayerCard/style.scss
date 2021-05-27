@@ -1,0 +1,128 @@
+$regular: 500;
+$medium: 700;
+
+.playercard {
+  padding: 0 0 18px;
+  box-shadow: 0px 0px 5px 0px #c0c6cb;
+  border-radius: 10px;
+  width: 330px;
+  height: 490px;
+  background-color: #ffffff;
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+  }
+
+  hr {
+    border-top: 1px solid #dadee2;
+  }
+
+  .header {
+    padding: 18px;
+    display: flex;
+
+    .avatar {
+      min-width: 50px;
+      min-height: 50px;
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border: 4px solid #dadee2;
+      border-radius: 100%;
+    }
+
+    .title {
+      margin-bottom: 20px;
+    }
+
+    .shortform {
+      display: flex;
+    }
+
+    .breakdown {
+      display: flex;
+      align-items: center;
+
+      &:nth-child(1),
+      &:nth-child(2) {
+        padding-right: 10px;
+        border-right: 1px solid #dadee2;
+        margin-right: 10px;
+      }
+    }
+
+    .breakdown > div {
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+    }
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: $medium;
+    color: #001521;
+    margin-bottom: 5px;
+  }
+  .location {
+    font-size: 12px;
+    font-weight: $regular;
+    color: #46555f70;
+  }
+  .quality {
+    font-size: 12px;
+    font-weight: $regular;
+    color: #46555f;
+  }
+  .handicap {
+    font-size: 12px;
+    font-weight: $regular;
+    color: #46555f;
+  }
+  .sgTotal {
+    font-size: 12px;
+    font-weight: $regular;
+    color: #46555f;
+  }
+  .number {
+    font-size: 14px;
+    font-weight: $medium;
+    color: #001521;
+  }
+  .SGleft {
+    font-size: 14px;
+    font-weight: $regular;
+    color: #001521;
+  }
+  .SGright {
+    font-size: 14px;
+    font-weight: $medium;
+    color: #001521;
+  }
+  .latestAct {
+    font-size: 13px;
+    font-weight: $regular;
+    color: #46555f;
+    padding: 14px 18px;
+
+    span {
+      font-size: 13px;
+      font-weight: $medium;
+      color: #001521;
+    }
+  }
+  .fromMonth {
+    font-size: 12px;
+    font-weight: $regular;
+    color: #001521;
+  }
+  .tableAxis {
+    font-size: 12px;
+    font-weight: $regular;
+    color: #46555f;
+  }
+}
